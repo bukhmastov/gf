@@ -9,7 +9,9 @@ ScreenWelcome::~ScreenWelcome() {
     delete ui;
 }
 
-void ScreenWelcome::init() {}
+void ScreenWelcome::init() {
+    ScreenController::store["variant"] = QString::number(rnd() % 50 + 1);
+}
 
 bool ScreenWelcome::validate(Core*, QString*) {
     return true;
