@@ -35,6 +35,14 @@ void ScreenTask1::init() {
         ui->input6->setText(QString::number(std::get<2>(eq.at(5))));
         ui->input7->setText(QString::number(std::get<2>(eq.at(6))));
         ui->input8->setText(QString::number(std::get<2>(eq.at(7))));
+        ui->input1->setEnabled(false);
+        ui->input2->setEnabled(false);
+        ui->input3->setEnabled(false);
+        ui->input4->setEnabled(false);
+        ui->input5->setEnabled(false);
+        ui->input6->setEnabled(false);
+        ui->input7->setEnabled(false);
+        ui->input8->setEnabled(false);
     }
 }
 

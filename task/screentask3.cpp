@@ -11,26 +11,19 @@ ScreenTask3::~ScreenTask3() {
 }
 
 void ScreenTask3::init() {
-    QString h = Static::getVpi1(ScreenController::store["variant"]);
-    std::vector<QString> table;
-    table.push_back("111");
-    table.push_back("001");
-    table.push_back("010");
-    table.push_back("101");
-    table.push_back("100");
-    table.push_back("110");
-    table.push_back("011");
+    QString vpi1 = Static::getVpi1(ScreenController::store["variant"]);
+    std::vector<QString> table = Static::getGammaTable(ScreenController::store["variant"]);
     for (int i = 0; i < 8; i++) {
         int a = rnd() % 7 + 1;
         int b = rnd() % 7 + 1;
         int ab;
-        QString ay = table.at(a - 1);
-        QString by = table.at(b - 1);
+        QString ay = table.at(a);
+        QString by = table.at(b);
         if (i < 4) {
             QString aby = Static::getXOR(ay, by);
             for (unsigned int i = 0; i < table.size(); i++) {
                 if (table.at(i) == aby) {
-                    ab = i + 1;
+                    ab = i;
                 }
             }
         } else {
@@ -44,7 +37,7 @@ void ScreenTask3::init() {
     }
     eq.at(0);
     // setup ui
-    ui->title->setText(ui->title->text().replace("%h%", Static::getReadablePolynom(h)));
+    ui->title->setText(ui->title->text().replace("%h%", Static::getReadablePolynom(vpi1)));
     ui->label1->setText(QString::number(std::get<0>(eq.at(0))) + "+" + QString::number(std::get<1>(eq.at(0))) + "=");
     ui->label2->setText(QString::number(std::get<0>(eq.at(1))) + "+" + QString::number(std::get<1>(eq.at(1))) + "=");
     ui->label3->setText(QString::number(std::get<0>(eq.at(2))) + "-" + QString::number(std::get<1>(eq.at(2))) + "=");
@@ -62,6 +55,14 @@ void ScreenTask3::init() {
         ui->input6->setText(QString::number(std::get<2>(eq.at(5))));
         ui->input7->setText(QString::number(std::get<2>(eq.at(6))));
         ui->input8->setText(QString::number(std::get<2>(eq.at(7))));
+        ui->input1->setEnabled(false);
+        ui->input2->setEnabled(false);
+        ui->input3->setEnabled(false);
+        ui->input4->setEnabled(false);
+        ui->input5->setEnabled(false);
+        ui->input6->setEnabled(false);
+        ui->input7->setEnabled(false);
+        ui->input8->setEnabled(false);
     }
 }
 
