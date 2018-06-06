@@ -4,6 +4,7 @@
 #include "screen/screendescription.h"
 #include "screen/screenquestion.h"
 #include "screen/screensummary.h"
+#include "task/screentask0.h"
 #include "task/screentask1.h"
 #include "task/screentask2.h"
 #include "task/screentask3.h"
@@ -101,7 +102,7 @@ void Core::generate(unsigned int seed) {
     // ------------------------------
     // intro part
     tasks.push_back(new Task(0,  0,  "Практическое занятие"));
-    /*tasks.push_back(new Task(1,  0,  "Практическое занятие"));
+    tasks.push_back(new Task(1,  0,  "Практическое занятие"));
     tasks.push_back(new Task(2,  0,  "Практическое занятие"));
     // questions part
     tasks.push_back(new Task(3,  1,  "Входной контрольный опрос: вопрос 1",  false));
@@ -113,21 +114,21 @@ void Core::generate(unsigned int seed) {
     tasks.push_back(new Task(9,  7,  "Входной контрольный опрос: вопрос 7",  false));
     tasks.push_back(new Task(10, 8,  "Входной контрольный опрос: вопрос 8",  false));
     tasks.push_back(new Task(11, 9,  "Входной контрольный опрос: вопрос 9",  false));
-    tasks.push_back(new Task(12, 10, "Входной контрольный опрос: вопрос 10", false));*/
+    tasks.push_back(new Task(12, 10, "Входной контрольный опрос: вопрос 10", false));
     // tasks part
-    //tasks.push_back(new Task(13, 1,  "Вычисления над простым полем GF(p)"));
-    //tasks.push_back(new Task(14, 2,  "Построение расширенного поля Галуа GF(2^3)"));
-    //tasks.push_back(new Task(15, 3,  "Вычисления над расширенным полем GF(p^s) в каноническом базисе"));
-    //tasks.push_back(new Task(16, 4,  "Вычисления над расширенным полем GF(p^s) в нормальном базисе"));
-    //tasks.push_back(new Task(17, 5,  "Построение матрицы Ф прямого ФМС-преобразования"));
-    //tasks.push_back(new Task(18, 6,  "Построение матрицы Ф(-1) обратного ФМС-преобразования"));
-    //tasks.push_back(new Task(19, 7,  "Вычисление прямого ФМС-преобразования"));
-    //tasks.push_back(new Task(20, 8,  "Вычисление обратного ФМС-преобразования"));
-    //tasks.push_back(new Task(21, 9,  "Решение квадратного уравнения над полем GF(2^3)"));
-    //tasks.push_back(new Task(22, 10, "Решение квадратного уравнения над полем GF(2^8)"));
-    //tasks.push_back(new Task(23, 11, "Построение расширенного поля Галуа GF(3^2)"));
-    tasks.push_back(new Task(24, 12, "Решение квадратного уравнения над полем GF(3^2)"));
-
+    tasks.push_back(new Task(13, 0,  "Исходные данные"));
+    tasks.push_back(new Task(14, 1,  "Вычисления над простым полем GF(p)"));
+    tasks.push_back(new Task(15, 2,  "Построение расширенного поля Галуа GF(2^3)"));
+    tasks.push_back(new Task(16, 3,  "Вычисления над расширенным полем GF(p^s) в каноническом базисе"));
+    tasks.push_back(new Task(17, 4,  "Вычисления над расширенным полем GF(p^s) в нормальном базисе"));
+    tasks.push_back(new Task(18, 5,  "Построение матрицы Ф прямого ФМС-преобразования"));
+    tasks.push_back(new Task(19, 6,  "Построение матрицы Ф(-1) обратного ФМС-преобразования"));
+    tasks.push_back(new Task(20, 7,  "Вычисление прямого ФМС-преобразования"));
+    tasks.push_back(new Task(21, 8,  "Вычисление обратного ФМС-преобразования"));
+    tasks.push_back(new Task(22, 9,  "Решение квадратного уравнения над полем GF(2^3)"));
+    tasks.push_back(new Task(23, 10, "Решение квадратного уравнения над полем GF(2^8)"));
+    tasks.push_back(new Task(24, 11, "Построение расширенного поля Галуа GF(3^2)"));
+    tasks.push_back(new Task(25, 12, "Решение квадратного уравнения над полем GF(3^2)"));
     // summary part
     tasks.push_back(new Task(99, 0, "Результат", false));
     // ------------------------------
@@ -158,18 +159,19 @@ ScreenController* Core::getView(int id) {
         case 11: return ScreenQuestion::get(this, questions.at(questionsOrder.at(8))); break;
         case 12: return ScreenQuestion::get(this, questions.at(questionsOrder.at(9))); break;
         // tasks part
-        case 13: return new ScreenTask1;  break;
-        case 14: return new ScreenTask2;  break;
-        case 15: return new ScreenTask3;  break;
-        case 16: return new ScreenTask4;  break;
-        case 17: return new ScreenTask5;  break;
-        case 18: return new ScreenTask6;  break;
-        case 19: return new ScreenTask7;  break;
-        case 20: return new ScreenTask8;  break;
-        case 21: return new ScreenTask9;  break;
-        case 22: return new ScreenTask10; break;
-        case 23: return new ScreenTask11; break;
-        case 24: return new ScreenTask12; break;
+        case 13: return new ScreenTask0;  break;
+        case 14: return new ScreenTask1;  break;
+        case 15: return new ScreenTask2;  break;
+        case 16: return new ScreenTask3;  break;
+        case 17: return new ScreenTask4;  break;
+        case 18: return new ScreenTask5;  break;
+        case 19: return new ScreenTask6;  break;
+        case 20: return new ScreenTask7;  break;
+        case 21: return new ScreenTask8;  break;
+        case 22: return new ScreenTask9;  break;
+        case 23: return new ScreenTask10; break;
+        case 24: return new ScreenTask11; break;
+        case 25: return new ScreenTask12; break;
         // summary part
         case 99: return ScreenSummary::get(this); break;
         default: return NULL;

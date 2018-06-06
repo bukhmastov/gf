@@ -29,6 +29,7 @@ ScreenSummary* ScreenSummary::get(Core *core) {
     screen->ui->score->setText(QString::number(core->getScore()));
     screen->ui->mark->setText(mark);
     screen->ui->date->setText(screen->ui->date->text().replace("%date%", date));
+    screen->ui->variant->setText(screen->ui->variant->text().replace("%v%", QString::number(ScreenController::store["variant"].toInt() + 1)));
     screen->ui->seed->setText(screen->ui->seed->text().replace("%seed%", QString::number(core->getSeed())));
     return screen;
 }

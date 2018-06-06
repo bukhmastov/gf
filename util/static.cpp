@@ -11,7 +11,7 @@ QString Static::messageAnswerWrong = "Ответ неверный (-2 балла
 std::vector<std::tuple<QString, int, int, QString, QString, QString, int>> Static::variants;
 
 std::tuple<QString, int, int, QString, QString, QString, int> Static::getVariant(QString v) {
-    if (Static::variants.size() < 49) {
+    if (Static::variants.size() < 50) {
         Static::variants.clear();
         Static::variants.push_back(std::make_tuple("1011", 2, 2, "7621535", "6423123", "221", 3));
         Static::variants.push_back(std::make_tuple("1011", 3, 3, "1423141", "4126346", "211", 5));

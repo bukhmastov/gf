@@ -10,8 +10,8 @@ ScreenTask12::~ScreenTask12() {
 }
 
 void ScreenTask12::init() {
-    QString pi = "211";//Static::getVpi2(ScreenController::store["variant"]);
-    int vk = 3;//Static::getVk(ScreenController::store["variant"]);
+    QString pi = Static::getVpi2(ScreenController::store["variant"]);
+    int vk = Static::getVk(ScreenController::store["variant"]);
     std::vector<QString> tableAlpha;
     std::vector<QString> tableBeta;
     // alpha
@@ -45,9 +45,9 @@ void ScreenTask12::init() {
     while (true) {
         try {
             // Ax^2 + Bx + C = 0
-            a = 4;//rnd() % 8 + 1;
-            b = 7;//rnd() % 8 + 1;
-            c = 3;//rnd() % 8 + 1;
+            a = rnd() % 8 + 1;
+            b = rnd() % 8 + 1;
+            c = rnd() % 8 + 1;
             if (a == b && b == c) {
                 continue;
             }
