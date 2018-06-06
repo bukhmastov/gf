@@ -100,10 +100,10 @@ void ScreenTask12::init() {
         ui->inputX1->setText(QString::number(x1));
         ui->inputX2->setText(QString::number(x2));
 
-        ui->inputBN->setEnabled(false);
-        ui->inputCN->setEnabled(false);
-        ui->inputX1->setEnabled(false);
-        ui->inputX2->setEnabled(false);
+        ui->inputBN->setReadOnly(true);
+        ui->inputCN->setReadOnly(true);
+        ui->inputX1->setReadOnly(true);
+        ui->inputX2->setReadOnly(true);
     }
 }
 

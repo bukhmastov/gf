@@ -158,13 +158,13 @@ void ScreenTask10::init() {
         ui->inputX1->setText(x1);
         ui->inputX2->setText(x2);
 
-        ui->inputDK->setEnabled(false);
-        ui->inputZ1K->setEnabled(false);
-        ui->inputZ2K->setEnabled(false);
-        ui->inputZ1N->setEnabled(false);
-        ui->inputZ2N->setEnabled(false);
-        ui->inputX1->setEnabled(false);
-        ui->inputX2->setEnabled(false);
+        ui->inputDK->setReadOnly(true);
+        ui->inputZ1K->setReadOnly(true);
+        ui->inputZ2K->setReadOnly(true);
+        ui->inputZ1N->setReadOnly(true);
+        ui->inputZ2N->setReadOnly(true);
+        ui->inputX1->setReadOnly(true);
+        ui->inputX2->setReadOnly(true);
     }
 }
 

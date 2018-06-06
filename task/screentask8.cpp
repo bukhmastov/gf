@@ -30,7 +30,7 @@ void ScreenTask8::init() {
     ui->title->setText(ui->title->text().replace("%b%", b));
     if (readOnly) {
         ui->input->setText(answer);
-        ui->input->setEnabled(false);
+        ui->input->setReadOnly(true);
     }
 }
 
