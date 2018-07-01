@@ -147,7 +147,7 @@
         <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>&lt;b&gt;ВНИМАНИЕ:&lt;/b&gt; Ввод полиномов производится в двоичной форме по &lt;b&gt;возрастанию степени&lt;/b&gt;. Например: h(x)=1+x&lt;sup&gt;4&lt;/sup&gt;+x&lt;sup&gt;6&lt;/sup&gt; будет выглядеть как h=1000101</string>
+        <string>&lt;b&gt;ВНИМАНИЕ&lt;/b&gt;&lt;br&gt;1. Ввод полиномов производится в двоичной форме по &lt;b&gt;возрастанию степени&lt;/b&gt;.&lt;br&gt;Например: h(x)=1+x&lt;sup&gt;4&lt;/sup&gt;+x&lt;sup&gt;6&lt;/sup&gt; будет выглядеть как h=1000101&lt;br&gt;2. Ввод элементов расширенных полей производится в целочисленной форме представления</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>

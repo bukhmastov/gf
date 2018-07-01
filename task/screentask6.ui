@@ -47,7 +47,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Построить матрицу обратного ФМС-преобразования</string>
+        <string>Построить матрицу обратного ФМС-преобразования над расширенным полем GF(2&lt;sup&gt;3&lt;/sup&gt;)</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>

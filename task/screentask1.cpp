@@ -10,7 +10,13 @@ ScreenTask1::~ScreenTask1() {
 }
 
 void ScreenTask1::init() {
-    int p = rnd() % 7 + 5; // 5 - 11
+    int p = 5;
+    switch (rnd() % 4) {
+    case 0: p = 5;  break;
+    case 1: p = 7;  break;
+    case 2: p = 11; break;
+    case 3: p = 13; break;
+    }
     for (int i = 0; i < 8; i++) {
         int a = rnd() % p + 1;
         int b = rnd() % p + 1;

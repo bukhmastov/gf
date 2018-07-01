@@ -50,7 +50,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Решите квадратное уравнение %a%x&lt;sup&gt;2&lt;/sup&gt;+%b%x+%c%=0</string>
+        <string>Решить квадратное уравнение %a%x&lt;sup&gt;2&lt;/sup&gt;+%b%x+%c%=0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -82,7 +82,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>А) Введите коэффициент D в каноническом и нормальном базисах</string>
+        <string>А) Ввести коэффициент D в каноническом и нормальном базисах</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -192,13 +192,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -233,13 +233,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -288,7 +288,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Б) Определите функцию следа и корни канонического уравнения</string>
+        <string>Б) Определить функцию следа коэффициента D и корни канонического уравнения в векторной форме в каноническом и нормальном базисах</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -352,13 +352,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -397,13 +397,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -474,13 +474,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -538,13 +538,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -566,13 +566,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -647,7 +647,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>В) Определите корни исходного уравнения в каноническом базисе</string>
+        <string>В) Определить корни исходного уравнения в каноническом базисе</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -698,13 +698,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -765,13 +765,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>

@@ -47,7 +47,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>1. Построить расширенное поле Галуа GF(2^3) с неприводимым полиномом p(x)=%h% для элемента β=α&lt;sup&gt;%vi%&lt;/sup&gt;&lt;br&gt;2. Вычислить периоды элементов&lt;br&gt;3. Вычислить функцию следа&lt;br&gt;4. Построить поле в нормальном базисе для элемента γ=β&lt;sup&gt;%vj%&lt;/sup&gt;</string>
+        <string>1. Построить расширенное поле Галуа GF(2^3) с неприводимым полиномом p(x)=%h% для элемента β=α&lt;sup&gt;%vi%&lt;/sup&gt;&lt;br&gt;2. Вычислить периоды элементов поля&lt;br&gt;3. Вычислить функции следа элементов поля&lt;br&gt;4. Построить поле в нормальном базисе для элемента γ=β&lt;sup&gt;%vj%&lt;/sup&gt;</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -623,7 +623,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -676,7 +676,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -760,7 +760,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -782,7 +782,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -804,7 +804,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -826,7 +826,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -879,7 +879,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -933,7 +933,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -987,7 +987,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1041,7 +1041,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1063,7 +1063,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1085,7 +1085,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1107,7 +1107,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1160,7 +1160,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1182,7 +1182,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1204,7 +1204,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1580,7 +1580,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1854,7 +1854,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -1876,7 +1876,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2037,7 +2037,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2236,7 +2236,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2265,7 +2265,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2294,7 +2294,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2579,7 +2579,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2665,7 +2665,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2762,7 +2762,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2828,7 +2828,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>
@@ -2850,7 +2850,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
+           <width>60</width>
            <height>16777215</height>
           </size>
          </property>

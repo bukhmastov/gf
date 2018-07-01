@@ -47,7 +47,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Найдите оригинал вектора Y для B=%b%</string>
+        <string>Найти вектор-оригинал Y для заданного вектора-изображения B=%b% в каноническом базисе расширенного поля GF(2&lt;sup&gt;3&lt;/sup&gt;) из задания 2</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -108,13 +108,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>100</width>
+           <width>150</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>100</width>
+           <width>150</width>
            <height>16777215</height>
           </size>
          </property>

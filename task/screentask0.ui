@@ -47,7 +47,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Выберите номер варианта</string>
+        <string>Выбрать номер варианта</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>

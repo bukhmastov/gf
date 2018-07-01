@@ -50,7 +50,7 @@
         <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Над полем GF(3^2) с неприводимым полиномом p(x)=%p% β=α&lt;sup&gt;%k%&lt;/sup&gt;</string>
+        <string>Для автоморфизма поля GF(3&lt;sup&gt;2&lt;/sup&gt;) с заданным неприводимым полиномом p(x)=%p% из задания 11 и примитивным элементом β=α&lt;sup&gt;%k%</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -146,13 +146,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>16777215</height>
           </size>
          </property>
@@ -187,13 +187,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>16777215</height>
           </size>
          </property>
@@ -306,13 +306,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>16777215</height>
           </size>
          </property>
@@ -373,13 +373,13 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>0</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>40</width>
+           <width>50</width>
            <height>16777215</height>
           </size>
          </property>
