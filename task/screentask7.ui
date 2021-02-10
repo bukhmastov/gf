@@ -44,7 +44,7 @@
      <item>
       <widget class="QLabel" name="title">
        <property name="styleSheet">
-        <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
         <string>Найти вектор-изображение Z для заданного вектора-оригинала  А=%a%  в каноническом базисе расширенного поля GF(2&lt;sup&gt;3&lt;/sup&gt;) из задания 2</string>
@@ -91,7 +91,7 @@
        <item>
         <widget class="QLabel" name="label">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>Z = A * Ф = </string>
@@ -119,7 +119,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>

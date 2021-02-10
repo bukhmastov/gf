@@ -60,30 +60,30 @@ void Core::generate(unsigned int seed) {
     // ------------------------------
     questions.push_back(new Question("При каком условии группа G называется коммутативной, или абелевой?", std::vector<QString>{"Если групповая бинарная операция является коммутативной", "Если в группе существует нейтральный элемент", "Если для каждого ненулевого элемента существует обратный элемент", "Если нейтральный элемент является коммутативным"}));
     questions.push_back(new Question("Определение простого поля GF(p)", std::vector<QString>{"Это конечное поле порядка р (р – простое число), образованное полной системой вычетов по модулю числа р", "Это конечное поле порядка р (р – простое число), образованное полной системой вычетов по модулю числа р за исключением нулевого элемента", "Это конечное поле порядка р (р – простое число), образованное полной системой вычетов по модулю числа р за исключением единичного элемента", "Это конечное поле порядка р (р – простое число), образованное системой четных вычетов по модулю числа р"}));
-    questions.push_back(new Question("В поле GF(11) найти мультипликативно обратный элемент для а=8", std::vector<QString>{"8^(-1) = 7", "8^(-1) = 8", "8^(-1) = 9", "8^(-1) = 6"}));
+    questions.push_back(new Question("В поле GF(11) найти мультипликативно обратный элемент для а=8", std::vector<QString>{"8<sup>-1</sup> = 7", "8<sup>-1</sup> = 8", "8<sup>-1</sup> = 9", "8<sup>-1</sup> = 6"}));
     questions.push_back(new Question("Какой полином требуется для задания расширенного поля Галуа?", std::vector<QString>{"Неприводимый", "Примитивный", "Минимальный", "Сопряженный"}));
     questions.push_back(new Question("Какой полином называется примитивным?", std::vector<QString>{"Это неприводимый полином, корнями которого являются примитивный элемент и его р-сопряженные элементы", "Это полином, корнями которого являются р-сопряженные элементы", "Это полином, который имеет 2t последовательных корней", "Это полином, корнями которого являются все примитивные элементы поля"}));
     questions.push_back(new Question("Какой полином называется минимальным полиномом для элемента а?", std::vector<QString>{"Это полином минимальной степени, корнями которого являются элемент а и его р-сопряженные элементы", "Это неприводимый полином, корни которого имеют минимальный период", "Это примитивный полином, корнями которого являются минимальные элементы", "Это полином минимальной степени, корнями которого являются элемент а и его последовательные степени"}));
-    questions.push_back(new Question("Какие периоды могут иметь элементы конечного поля GF(3^4)?", std::vector<QString>{"80, 40, 20, 16, 10, 8, 4, 2, 1", "80, 40, 20, 10, 4, 2, 1", "80, 40, 20, 16, 10, 8, 4, 2, 1", "80, 40, 24, 20, 16, 10, 8, 4, 2, 1"}));
-    questions.push_back(new Question("Какие периоды могут иметь элементы конечного поля GF(2^6)?", std::vector<QString>{"63, 21, 9, 7, 3, 1", "63, 42, 21, 9, 7, 3, 1", "63, 9, 7, 3, 1", "63, 7, 3, 1"}));
-    questions.push_back(new Question("Какие периоды могут иметь элементы конечного поля GF(2^10), если 2^10 -1=1*3*11*31?", std::vector<QString>{"1023, 1, 3, 11, 31, 33, 93, 343", "1023, 511, 3, 11, 31, 33, 93, 343", "1023, 511, 255, 127, 63, 31", "1023, 1, 3, 11, 31, 33, 93, 99, 343"}));
-    questions.push_back(new Question("Сколько элементов в поле GF(2^4) имеют период, равный 5?", std::vector<QString>{"4", "1", "2", "0"}));
-    questions.push_back(new Question("Сколько элементов в поле GF(2^4) имеют период, равный 7?", std::vector<QString>{"0", "6", "7", "4"}));
-    questions.push_back(new Question("Сколько элементов в поле GF(3^3) имеют период, равный 13?", std::vector<QString>{"12", "9", "13", "6"}));
-    questions.push_back(new Question("В поле GF(2^6) период элемента а равен 21. Чему равен период элемента b=a^9?", std::vector<QString>{"7", "21", "63", "3"}));
-    questions.push_back(new Question("В поле GF(2^4) определить р-сопряженные элементы для элемента а^3", std::vector<QString>{"а^3, а^6, а^12, а^9", "а^3, а^6, а^9, а^12, а^15", "а^3, а^4, а^5, а^6", "а^3, а^6, а^3, а^6"}));
-    questions.push_back(new Question("В поле GF(2^3) чему равна функция следа для элемента а^0?", std::vector<QString>{"1", "0", "-1", "7"}));
-    questions.push_back(new Question("Вычислить: (2х^10+4х^8+7х^7+8х^5+4х^4+7) modd(х^4, 3)", std::vector<QString>{"1", "x", "2", "х^3"}));
+    questions.push_back(new Question("Какие периоды могут иметь элементы конечного поля GF(3<sup>4</sup>)?", std::vector<QString>{"80, 40, 20, 16, 10, 8, 5, 4, 2, 1", "80, 40, 20, 10, 4, 2, 1", "80, 40, 20, 16, 10, 8, 4, 2, 1", "80, 40, 24, 20, 16, 10, 8, 4, 2, 1"}));
+    questions.push_back(new Question("Какие периоды могут иметь элементы конечного поля GF(2<sup>6</sup>)?", std::vector<QString>{"63, 21, 9, 7, 3, 1", "63, 42, 21, 9, 7, 3, 1", "63, 9, 7, 3, 1", "63, 7, 3, 1"}));
+    questions.push_back(new Question("Какие периоды могут иметь элементы конечного поля GF(2<sup>10</sup>), если 2<sup>10</sup> -1=1*3*11*31?", std::vector<QString>{"1023, 1, 3, 11, 31, 33, 93, 343", "1023, 511, 3, 11, 31, 33, 93, 343", "1023, 511, 255, 127, 63, 31", "1023, 1, 3, 11, 31, 33, 93, 99, 343"}));
+    questions.push_back(new Question("Сколько элементов в поле GF(2<sup>4</sup>) имеют период, равный 5?", std::vector<QString>{"4", "1", "2", "0"}));
+    questions.push_back(new Question("Сколько элементов в поле GF(2<sup>4</sup>) имеют период, равный 7?", std::vector<QString>{"0", "6", "7", "4"}));
+    questions.push_back(new Question("Сколько элементов в поле GF(3<sup>3</sup>) имеют период, равный 13?", std::vector<QString>{"12", "9", "13", "6"}));
+    questions.push_back(new Question("В поле GF(2<sup>6</sup>) период элемента а равен 21. Чему равен период элемента b=a<sup>9</sup>?", std::vector<QString>{"7", "21", "63", "3"}));
+    questions.push_back(new Question("В поле GF(2<sup>4</sup>) определить р-сопряженные элементы для элемента а<sup>3</sup>", std::vector<QString>{"а<sup>3</sup>, а<sup>6</sup>, а<sup>12</sup>, а<sup>9</sup>", "а<sup>3</sup>, а<sup>6</sup>, а<sup>9</sup>, а<sup>12</sup>, а<sup>15</sup>", "а<sup>3</sup>, а<sup>4</sup>, а<sup>5</sup>, а<sup>6</sup>", "а<sup>3</sup>, а<sup>6</sup>, а<sup>3</sup>, а<sup>6</sup>"}));
+    questions.push_back(new Question("В поле GF(2<sup>3</sup>) чему равна функция следа для элемента а<sup>0</sup>?", std::vector<QString>{"1", "0", "-1", "7"}));
+    questions.push_back(new Question("Вычислить: (2х<sup>10</sup>+4х<sup>8</sup>+7х<sup>7</sup>+8х<sup>5</sup>+4х<sup>4</sup>+7) modd(х<sup>4</sup>, 3)", std::vector<QString>{"1", "x", "2", "х<sup>3</sup>"}));
     questions.push_back(new Question("Чему равен порядок аддитивной группы простого поля GF(13)?", std::vector<QString>{"13", "11", "12", "10"}));
     questions.push_back(new Question("Чему равен порядок мультипликативной группы поля GF(13)?", std::vector<QString>{"12", "13", "11", "10"}));
-    questions.push_back(new Question("Выражение для канонического степенного базиса в поле GF(p^s) (а-примитивный элемент)?", std::vector<QString>{"{a^0, a^1,..., a^(s–1)}", "{a^1, a^2,..., a^(s–1)}", "{a^1, a^2,..., a^(2s–1)}", "{a^0, a^1,..., a^(2s–1)}"}));
-    questions.push_back(new Question("Для каких значений длин векторов n может быть выполнено прямое n-точечное ФМС–преобразование над конечным полем GF(2^4)?", std::vector<QString>{"3, 5, 15", "3, 6, 9, 12, 15", "3, 5, 10, 15", "5, 10, 15"}));
+    questions.push_back(new Question("Выражение для канонического степенного базиса в поле GF(p<sup>s</sup>) (а-примитивный элемент)?", std::vector<QString>{"{a<sup>0</sup>, a<sup>1</sup>,..., a<sup>s-1</sup>}", "{a<sup>1</sup>, a<sup>2</sup>,..., a<sup>s-1</sup>}", "{a<sup>1</sup>, a<sup>2</sup>,..., a<sup>2s-1</sup>}", "{a<sup>0</sup>, a<sup>1</sup>,..., a<sup>2s-1</sup>}"}));
+    questions.push_back(new Question("Для каких значений длин векторов n может быть выполнено прямое n-точечное ФМС–преобразование над конечным полем GF(2<sup>4</sup>)?", std::vector<QString>{"3, 5, 15", "3, 6, 9, 12, 15", "3, 5, 10, 15", "5, 10, 15"}));
     questions.push_back(new Question("Даны матрица А размерности (7*9) и матрица В размерности (9*4). Сколько элементов будет в матрице С=А*В?", std::vector<QString>{"28", "63", "81", "36"}));
-    questions.push_back(new Question("Определить третью строку (начиная с первой) матрицы Ф прямого ФМС-преобразования над полем GF(3^2)", std::vector<QString>{"а^0, а^2, а^4, а^6, а^0, а^2, а^4, а^6", "а^0, а^2, а^4, а^6, а^8, а^0, а^2, а^4", "а^0, а^3, а^6, а^1, а^4, а^7, а^2, а^5", "а^0, а^2, а^4, а^0, а^2, а^4, а^0, а^2"}));
+    questions.push_back(new Question("Определить третью строку (начиная с первой) матрицы Ф прямого ФМС-преобразования над полем GF(3<sup>2</sup>)", std::vector<QString>{"а<sup>0</sup>, а<sup>2</sup>, а<sup>4</sup>, а<sup>6</sup>, а<sup>0</sup>, а<sup>2</sup>, а<sup>4</sup>, а<sup>6</sup>", "а<sup>0</sup>, а<sup>2</sup>, а<sup>4</sup>, а<sup>6</sup>, а<sup>8</sup>, а<sup>0</sup>, а<sup>2</sup>, а<sup>4</sup>", "а<sup>0</sup>, а<sup>3</sup>, а<sup>6</sup>, а<sup>1</sup>, а<sup>4</sup>, а<sup>7</sup>, а<sup>2</sup>, а<sup>5</sup>", "а<sup>0</sup>, а<sup>2</sup>, а<sup>4</sup>, а<sup>0</sup>, а<sup>2</sup>, а<sup>4</sup>, а<sup>0</sup>, а<sup>2</sup>"}));
     questions.push_back(new Question("Определение канонического базиса", std::vector<QString>{"Это базис, каждая компонента которого содержит всего одну единицу, а остальные – нули", "Это базис, каждая компонента которого содержит всего один нуль, а остальные – единицы", "Это базис, каждая компонента которого содержит нечетное число единиц", "Это базис, все компоненты которого линейно независимы"}));
-    questions.push_back(new Question("Определение базиса S-мерного векторного пространства", std::vector<QString>{"Это набор из S линейно независимых векторов, с помощью линейных комбинаций которых можно получить все векторы этого пространства", "Это набор линейно независимых векторов, с помощью линейных комбинаций которых можно получить S векторов этого пространства", "Это набор из 2^S линейно независимых векторов, с помощью линейных комбинаций которых можно получить все векторы этого пространства", "Это набор из (2^S-1) линейно независимых векторов, с помощью линейных комбинаций которых можно получить все векторы этого пространства"}));
-    questions.push_back(new Question("Какой базис называется нормальным примитивным базисом поля GF(2^S)?", std::vector<QString>{"Это базис вида {g, g^2, g^4,..., g^q}, где q = 2^(S–1), g - примитивный элемент поля GF(2^S), причем след tr s1 g = 1", "Это базис вида {g, g^2, g^3,..., g^q}, где q = 2^(S–1), g - примитивный элемент поля GF(2^S), причем след tr s1 g = 1", "Это базис вида {g, g^2, g^4,..., g^2q}, где q = 2^(S–1), g - примитивный элемент поля GF(2^S), причем след tr s1 g = 1", "Это базис вида {g, g^2, g^4,..., g^q}, где q = 2^(S–1), g - примитивный элемент поля GF(2^S), причем след tr s1 g = 0"}));
-    questions.push_back(new Question("Какие элементы называются р-сопряженными элементами?", std::vector<QString>{"Элементы а^(р^i), где i=0,1,…", "Элементы а^(р^2i), где i=0,1,…", "Элементы а^(р^i-1), где i=1,2,…", "Элементы а^(р^2i), где i=1,2,…"}));
+    questions.push_back(new Question("Определение базиса S-мерного векторного пространства", std::vector<QString>{"Это набор из S линейно независимых векторов, с помощью линейных комбинаций которых можно получить все векторы этого пространства", "Это набор линейно независимых векторов, с помощью линейных комбинаций которых можно получить S векторов этого пространства", "Это набор из 2<sup>S</sup> линейно независимых векторов, с помощью линейных комбинаций которых можно получить все векторы этого пространства", "Это набор из (2<sup>S</sup>-1) линейно независимых векторов, с помощью линейных комбинаций которых можно получить все векторы этого пространства"}));
+    questions.push_back(new Question("Какой базис называется нормальным примитивным базисом поля GF(2<sup>S</sup>)?", std::vector<QString>{"Это базис вида {g, g<sup>2</sup>, g<sup>4</sup>,..., g<sup>q</sup>}, где q = 2<sup>S-1</sup>, g - примитивный элемент поля GF(2<sup>S</sup>), причем след tr s1 g = 1", "Это базис вида {g, g<sup>2</sup>, g<sup>3</sup>,..., g<sup>q</sup>}, где q = 2<sup>S-1</sup>, g - примитивный элемент поля GF(2<sup>S</sup>), причем след tr s1 g = 1", "Это базис вида {g, g<sup>2</sup>, g<sup>4</sup>,..., g<sup>2q</sup>}, где q = 2<sup>S-1</sup>, g - примитивный элемент поля GF(2<sup>S</sup>), причем след tr s1 g = 1", "Это базис вида {g, g<sup>2</sup>, g<sup>4</sup>,..., g<sup>q</sup>}, где q = 2<sup>S-1</sup>, g - примитивный элемент поля GF(2<sup>S</sup>), причем след tr s1 g = 0"}));
+    questions.push_back(new Question("Какие элементы называются р-сопряженными элементами?", std::vector<QString>{"Элементы а^p^i, где i=0,1,…", "Элементы а^p^(2i), где i=0,1,…", "Элементы а^p^(i-1), где i=1,2,…", "Элементы а^p^(2i), где i=1,2,…"}));
     // ------------------------------
     unsigned int size = questions.size() < 10 ? questions.size() : 10;
     while (true) {
@@ -98,12 +98,13 @@ void Core::generate(unsigned int seed) {
     // ------------------------------
     // HERE GOES DEFINITIONS OF TASKS
     // EVERY TASK SHOULD BE ADDED TO TASKS VECTOR BELOW
+    // EVERY TASK SHOULD HAVE ITS OWN TASK BUTTON AT MainWindow.ui/h/cpp
     // TASK'S VIEWS DEFINES AT Core::getView(int id)
     // ------------------------------
     // intro part
-    tasks.push_back(new Task(0,  0,  "Практическое занятие"));
-    tasks.push_back(new Task(1,  0,  "Практическое занятие"));
-    tasks.push_back(new Task(2,  0,  "Практическое занятие"));
+    tasks.push_back(new Task(0,  0,  Static::worktype));
+    tasks.push_back(new Task(1,  0,  Static::worktype));
+    tasks.push_back(new Task(2,  0,  Static::worktype));
     // questions part
     tasks.push_back(new Task(3,  1,  "Входной контрольный опрос: вопрос 1",  false));
     tasks.push_back(new Task(4,  2,  "Входной контрольный опрос: вопрос 2",  false));
@@ -115,24 +116,24 @@ void Core::generate(unsigned int seed) {
     tasks.push_back(new Task(10, 8,  "Входной контрольный опрос: вопрос 8",  false));
     tasks.push_back(new Task(11, 9,  "Входной контрольный опрос: вопрос 9",  false));
     tasks.push_back(new Task(12, 10, "Входной контрольный опрос: вопрос 10", false));
-    // tasks part
+    // variant definition part
     tasks.push_back(new Task(13, 0,  "Исходные данные"));
+    // tasks part
     tasks.push_back(new Task(14, 1,  "Вычисления над простым полем GF(p)"));
-    tasks.push_back(new Task(15, 2,  "Построение расширенного поля Галуа GF(2^3)"));
-    tasks.push_back(new Task(16, 3,  "Вычисления над расширенным полем GF(p^s) в каноническом базисе"));
-    tasks.push_back(new Task(17, 4,  "Вычисления над расширенным полем GF(p^s) в нормальном базисе"));
+    tasks.push_back(new Task(15, 2,  "Построение расширенного поля Галуа GF(2<sup>3</sup>)"));
+    tasks.push_back(new Task(16, 3,  "Вычисления над расширенным полем GF(p<sup>s</sup>) в каноническом базисе"));
+    tasks.push_back(new Task(17, 4,  "Вычисления над расширенным полем GF(p<sup>s</sup>) в нормальном базисе"));
     tasks.push_back(new Task(18, 5,  "Построение матрицы Ф прямого ФМС-преобразования"));
     tasks.push_back(new Task(19, 6,  "Построение матрицы Ф(-1) обратного ФМС-преобразования"));
     tasks.push_back(new Task(20, 7,  "Вычисление прямого ФМС-преобразования"));
     tasks.push_back(new Task(21, 8,  "Вычисление обратного ФМС-преобразования"));
-    tasks.push_back(new Task(22, 9,  "Решение квадратного уравнения над полем GF(2^3)"));
-    tasks.push_back(new Task(23, 10, "Решение квадратного уравнения над полем GF(2^8)"));
-    tasks.push_back(new Task(24, 11, "Построение расширенного поля Галуа GF(3^2)"));
-    tasks.push_back(new Task(25, 12, "Решение квадратного уравнения над полем GF(3^2)"));
+    tasks.push_back(new Task(22, 9,  "Решение квадратного уравнения над полем GF(2<sup>3</sup>)"));
+    tasks.push_back(new Task(23, 10, "Решение квадратного уравнения над полем GF(2<sup>8</sup>)"));
+    tasks.push_back(new Task(24, 11, "Построение расширенного поля Галуа GF(3<sup>2</sup>)"));
+    tasks.push_back(new Task(25, 12, "Решение квадратного уравнения над полем GF(3<sup>2</sup>)"));
     // summary part
     tasks.push_back(new Task(99, 0, "Результат", false));
     // ------------------------------
-    window->setMaxProgress(tasks.size());
     window->setNextEnabled(true);
     window->setResetEnabled(true);
 }
@@ -158,8 +159,9 @@ ScreenController* Core::getView(int id) {
         case 10: return ScreenQuestion::get(this, questions.at(questionsOrder.at(7))); break;
         case 11: return ScreenQuestion::get(this, questions.at(questionsOrder.at(8))); break;
         case 12: return ScreenQuestion::get(this, questions.at(questionsOrder.at(9))); break;
-        // tasks part
+        // variant definition part
         case 13: return new ScreenTask0;  break;
+        // tasks part
         case 14: return new ScreenTask1;  break;
         case 15: return new ScreenTask2;  break;
         case 16: return new ScreenTask3;  break;
@@ -203,6 +205,11 @@ void Core::back() {
     }
 }
 
+void Core::back(int task) {
+    showedTask = task + 1;
+    show("");
+}
+
 void Core::reset() {
     generate();
     next();
@@ -222,12 +229,11 @@ void Core::show(QString message) {
     }
     Task *task = tasks.at(showedTask - 1);
     window->setStep(task->getNumber(), task->getTitle());
-    window->setProgress(showedTask);
+    window->setCurrentTask(showedTask - 1, currentTask - 1);
     window->setScore(score);
     window->setMessage(message);
     window->setWidget(getView(task->getId())->init(task->getId(), currentTask != showedTask));
-    window->setNextEnabled(currentTask == showedTask ? task->getNextButtonActive() : true);
-    window->setBackEnabled(showedTask > 1);
+    window->setNextEnabled(currentTask == showedTask ? task->getNextButtonActive() : false);
 }
 
 unsigned int Core::getSeed() {

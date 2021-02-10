@@ -2,10 +2,14 @@
 #define STATIC_H
 
 #include <QString>
+#include <QLayout>
 #include <tuple>
 
 class Static {
 public:
+    static QString worktype; // "Лабораторная работа" "Практическое занятие"
+    static QString worktypeShort; // "ЛР" "ПЗ"
+    static bool allowSelectVariant; // true false
     static int scoreInitial;
     static int score4quetion;
     static int score4task;
@@ -22,6 +26,8 @@ public:
     static QString getVb(QString);
     static QString getVpi2(QString);
     static int getVk(QString);
+
+    static void clearLayout(QLayout*);
 
     static std::vector<QString> getBetaTable(QString);
     static std::vector<QString> getGammaTable(QString);

@@ -23,6 +23,15 @@ protected:
 
 private:
     Ui::ScreenTask0 *ui;
+    QString labelPI1;
+    QString labelI;
+    QString labelJ;
+    QString labelA;
+    QString labelPI2;
+    QString labelK;
+
+private slots:
+    void variantSelected(int index);
 };
 
 #endif // SCREENTASK0_H

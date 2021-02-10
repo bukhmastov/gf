@@ -1,6 +1,12 @@
 #include "static.h"
 #include <QString>
+#include <QLayout>
+#include <QWidget>
 #include <QChar>
+
+QString Static::worktype = "Лабораторная работа"; // "Лабораторная работа" "Практическое занятие"
+QString Static::worktypeShort = "ЛР"; // "ЛР" "ПЗ"
+bool Static::allowSelectVariant = true; // true false
 
 int Static::scoreInitial = 50;
 int Static::score4quetion = 2;
@@ -93,6 +99,14 @@ QString Static::getVpi2(QString v) {
 
 int Static::getVk(QString v) {
     return std::get<6>(Static::getVariant(v));
+}
+
+void Static::clearLayout(QLayout* layout) {
+    QLayoutItem *wItem;
+    while ((wItem = layout->takeAt(0)) != 0) {
+        if (wItem->widget()) wItem->widget()->setParent(NULL);
+        delete wItem;
+    }
 }
 
 std::vector<QString> Static::getBetaTable(QString v) {

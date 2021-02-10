@@ -44,7 +44,7 @@
      <item>
       <widget class="QLabel" name="title">
        <property name="styleSheet">
-        <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
         <string>Решить несколько простых примеров над простым полем Галуа GF(%p%)</string>
@@ -91,7 +91,7 @@
        <item row="0" column="7">
         <widget class="QLabel" name="label4">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a+b=</string>
@@ -104,7 +104,7 @@
        <item row="1" column="1">
         <widget class="QLabel" name="label5">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a*b=</string>
@@ -117,7 +117,7 @@
        <item row="0" column="5">
         <widget class="QLabel" name="label3">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a+b=</string>
@@ -130,7 +130,7 @@
        <item row="0" column="3">
         <widget class="QLabel" name="label2">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a+b=</string>
@@ -155,7 +155,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -177,7 +177,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -199,7 +199,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -209,7 +209,7 @@
        <item row="0" column="1">
         <widget class="QLabel" name="label1">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a+b=</string>
@@ -234,7 +234,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -244,7 +244,7 @@
        <item row="1" column="7">
         <widget class="QLabel" name="label8">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a*b=</string>
@@ -257,7 +257,7 @@
        <item row="1" column="5">
         <widget class="QLabel" name="label7">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a*b=</string>
@@ -270,7 +270,7 @@
        <item row="1" column="3">
         <widget class="QLabel" name="label6">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>a*b=</string>
@@ -308,7 +308,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -330,7 +330,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -352,7 +352,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -374,7 +374,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>

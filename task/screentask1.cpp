@@ -17,11 +17,28 @@ void ScreenTask1::init() {
     case 2: p = 11; break;
     case 3: p = 13; break;
     }
-    for (int i = 0; i < 8; i++) {
+    int index = 0;
+    while (eq.size() < 8) {
         int a = rnd() % p + 1;
         int b = rnd() % p + 1;
-        int ab = (i / 4 == 0 ? a + b : a * b) % p;
+        if (a == 1 || b == 1 || a == b) {
+            continue;
+        }
+        bool isValid = true;
+        for (unsigned int i = 0; i < eq.size(); i++) {
+            int first = std::get<0>(eq.at(i));
+            int second = std::get<0>(eq.at(i));
+            if ((a == first && b == second) || (a == second && b == first)) {
+                isValid = false;
+                break;
+            }
+        }
+        if (!isValid) {
+            continue;
+        }
+        int ab = (index / 4 == 0 ? a + b : a * b) % p;
         eq.push_back(std::make_tuple(a, b, ab));
+        index++;
     }
     ui->title->setText(ui->title->text().replace("%p%", QString::number(p)));
     ui->label1->setText(QString::number(std::get<0>(eq.at(0))) + "+" + QString::number(std::get<1>(eq.at(0))) + "=");

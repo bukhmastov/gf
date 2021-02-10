@@ -12,13 +12,29 @@ ScreenTask4::~ScreenTask4() {
 void ScreenTask4::init() {
     QString h = Static::getVpi1(ScreenController::store["variant"]);
     std::vector<QString> table = Static::getGammaTable(ScreenController::store["variant"]);
-    for (int i = 0; i < 8; i++) {
+    int index = 0;
+    while (eq.size() < 8) {
         int a = rnd() % 7 + 1;
         int b = rnd() % 7 + 1;
+        if (a == 1 || b == 1 || a == b) {
+            continue;
+        }
+        bool isValid = true;
+        for (unsigned int i = 0; i < eq.size(); i++) {
+            int first = std::get<0>(eq.at(i));
+            int second = std::get<0>(eq.at(i));
+            if ((a == first && b == second) || (a == second && b == first)) {
+                isValid = false;
+                break;
+            }
+        }
+        if (!isValid) {
+            continue;
+        }
         int ab;
         QString ay = table.at(a);
         QString by = table.at(b);
-        if (i < 4) {
+        if (index < 4) {
             QString aby = Static::getXOR(ay, by);
             for (unsigned int i = 0; i < table.size(); i++) {
                 if (table.at(i) == aby) {
@@ -26,13 +42,22 @@ void ScreenTask4::init() {
                 }
             }
         } else {
-            int abi = ((i < 6 ? a + b - 2 : (a - 1) - (b - 1))) % 7;
+            int abi;
+            if (index < 6) {
+                abi = (a + b - 2) % 7;
+            } else {
+                abi = ((a - 1) - (b - 1)) % 7;
+                if (b - a == 1) {
+                    abi = 6;
+                }
+            }
             ab = abi + 1;
             while (ab < 0) {
                 ab += 7;
             }
         }
         eq.push_back(std::make_tuple(a, b, ab));
+        index++;
     }
     eq.at(0);
     // setup ui

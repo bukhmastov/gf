@@ -47,7 +47,7 @@
      <item>
       <widget class="QLabel" name="title">
        <property name="styleSheet">
-        <string notr="true">font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
         <string>Привести уравнение %a%x&lt;sup&gt;2&lt;/sup&gt;+%b%x+%c%=0 к каноническому виду и решить его</string>
@@ -233,7 +233,7 @@
        <item row="3" column="2">
         <widget class="QLabel" name="label_10">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>x''</string>
@@ -246,7 +246,7 @@
        <item row="3" column="1">
         <widget class="QLabel" name="label_14">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>x'</string>
@@ -272,7 +272,7 @@
        <item row="4" column="3">
         <widget class="QLabel" name="label_13">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string> (канонический базис)</string>
@@ -300,7 +300,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -341,7 +341,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -351,7 +351,7 @@
        <item row="0" column="2">
         <widget class="QLabel" name="label_12">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>z''</string>
@@ -390,7 +390,7 @@
        <item row="0" column="1">
         <widget class="QLabel" name="label_11">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>z'</string>
@@ -429,7 +429,7 @@
        <item row="2" column="3">
         <widget class="QLabel" name="label_9">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string> (канонический базис)</string>
@@ -439,7 +439,7 @@
        <item row="1" column="3">
         <widget class="QLabel" name="label_7">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string> (нормальный базис)</string>
@@ -467,7 +467,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -495,7 +495,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -523,7 +523,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -551,7 +551,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -581,7 +581,7 @@
        <item>
         <widget class="QLabel" name="label_15">
          <property name="styleSheet">
-          <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+          <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
           <string>Таблица переходов между базисами</string>
